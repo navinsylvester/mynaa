@@ -8,9 +8,9 @@ Lot of times you would want the reach of twitter but it's quite restrictive abou
 Features
 ========
 
-1)Truncates whole words only
-2)Tweet pagination
-3)Pure cli for absolute security and control
+1)Truncates whole words only\n
+2)Tweet pagination\n
+3)Pure cli for absolute security and control\n
 4)Reverse order posting for readability
 
 Installation
