@@ -1,0 +1,18 @@
+Requirement
+===========
+
+easy_install tweepy
+
+[or]
+
+pip install tweepy
+
+Get Mynaa
+=========
+
+git clone https://github.com/navinsylvester/mynaa.git
+
+cd mynaa
+
+chmod u+x mynaa.py
+
