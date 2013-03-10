@@ -9,8 +9,11 @@ Features
 ========
 
   1)Truncates whole words only
+  
   2)Tweet pagination
+  
   3)Pure cli for absolute security and control
+  
   4)Reverse order posting for readability
 
 Installation
