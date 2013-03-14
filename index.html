@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Mynaa : Python CLI tool to post a lengthy tweet as a series." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mynaa</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/navinsylvester/mynaa">View on GitHub</a>
+
+          <h1 id="project_title">Mynaa</h1>
+          <h2 id="project_tagline">Python CLI tool to post a lengthy tweet as a series.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/navinsylvester/mynaa/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/navinsylvester/mynaa/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Mynaa</h3>
+
+<p>Python CLI tool to post a lengthy tweet as a series.</p>
+
+<p>Lot of times you would want the reach of twitter but it's quite restrictive about what you want to express. Get around it with mynaa.</p>
+
+<h3>Features</h3>
+
+<p>1)Truncates whole words only</p>
+
+<p>2)Tweet pagination</p>
+
+<p>3)Pure cli for absolute security and control</p>
+
+<p>4)Reverse order posting for readability</p>
+
+<h3>Installation</h3>
+
+<h1>Requirement</h1>
+
+<pre><code>easy_install tweepy
+
+[or]
+
+pip install tweepy
+</code></pre>
+
+<h1>Get Mynaa</h1>
+
+<pre><code>git clone https://github.com/navinsylvester/mynaa.git
+
+cd mynaa
+
+chmod u+x mynaa.py
+
+./mynaa.py 'Your tweet text'
+</code></pre>
+
+<p>Note: Everytime you run the above command - you would be presented with the following authentication procedure:</p>
+
+<p>"Copy and paste the beside url in browser to get pin: <a href="http://api.twitter.com/oauth/authorize?oauth_token=XXXXXXXX">http://api.twitter.com/oauth/authorize?oauth_token=XXXXXXXX</a>"
+"Enter acquired PIN to proceed:"</p>
+
+<p>Copy and paste the url in the browser and authorize the app to post. You would be provided with a PIN after authorization. Please enter the PIN at command prompt and press enter to post the tweet. The above mentioned procedure has to be followed evertime you want to post.</p>
+
+<h3>Example</h3>
+
+<p>./mynaa.py "The quick brown fox jumps over the lazy dog is an English-language pangram – a phrase that contains all of the letters of the alphabet. It has been used to test typewriters and computer keyboards, and in other applications involving all of the letters in the English alphabet. Owing to its brevity and coherence, it has become widely known."</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mynaa maintained by <a href="https://github.com/navinsylvester">navinsylvester</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
